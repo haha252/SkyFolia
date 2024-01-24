@@ -1,5 +1,5 @@
 name: Build Skyllia
-on: [ push ]
+on: [workflow_dispatch]
 jobs:
   skyllia-testbuild:
     runs-on: ubuntu-22.04
